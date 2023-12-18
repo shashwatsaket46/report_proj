@@ -28,3 +28,4 @@ def sale_detail_view(request,**kwargs):
     obj=Salesr.objects.get(pk=pk)
     return render(request,'salesr/detail.html',{'object':obj})
 
+
